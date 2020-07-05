@@ -7,4 +7,4 @@ EXPOSE $PORT_TO_EXPOSE 1321
 
 RUN go build -o main .
 
-CMD["api.go"]
+CMD["main.go"]
